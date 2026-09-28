@@ -1,7 +1,7 @@
 QT += core
 
 TEMPLATE = lib
-CONFIG += shared c++17
+CONFIG += shared c++17 skip_target_version_ext
 
 TARGET = Logger
 VERSION = 1.0.0
